@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#FFE0B2"> <!-- Light orange background -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvEstimationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="Station Info"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Station Name -->
+        <TextView
+            android:id="@+id/tvStationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/chargingstat"
+            android:drawablePadding="8dp"
+            android:padding="5dp"
+            android:text="Station Name: XYZ"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <!-- Mobile -->
+        <TextView
+            android:id="@+id/tvStationMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/baseline_add_ic_call_24"
+            android:drawablePadding="8dp"
+            android:padding="5dp"
+            android:text="Mobile: 123-456-7890"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <!-- Location -->
+        <TextView
+            android:id="@+id/tvStationLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/baseline_location_on_24"
+            android:drawablePadding="8dp"
+            android:padding="5dp"
+            android:text="Location: ABC Street, City"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <!-- Charging Points -->
+        <TextView
+            android:id="@+id/tvChargingPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/flash"
+            android:drawablePadding="8dp"
+            android:padding="5dp"
+            android:text="Charging Points: 4"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <!-- Adapter Types -->
+        <TextView
+            android:id="@+id/tvAdapterTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/station"
+            android:drawablePadding="8dp"
+            android:padding="5dp"
+            android:text="Adapter Types: Type1, Type2"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <!-- Distance -->
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="5dp"
+            android:text="Distance: 2.3 km"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <!-- Estimation Message -->
+        <TextView
+            android:id="@+id/tvEstimationMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="5dp"
+            android:text="Estimation: You can reach the station with your current battery level."
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <!-- Suggestion -->
+        <TextView
+            android:id="@+id/tvSuggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="5dp"
+            android:text="Suggestion: Consider recharging."
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <!-- Call Station Button -->
+        <Button
+            android:id="@+id/btnCallStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@android:color/black"
+            android:text="Call Station"
+            android:textColor="@android:color/white" />
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/black"
+            android:text="Close"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

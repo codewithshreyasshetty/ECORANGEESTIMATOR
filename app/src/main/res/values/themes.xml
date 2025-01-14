@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EcoRangeEstimater" parent="Theme.Material3.DayNight.NoActionBar">
+         Customize your light theme here.
+         <item name="colorPrimary">@color/backGround_color</item>
+    </style>
+
+    <style name="Theme.EcoRangeEstimater" parent="Base.Theme.EcoRangeEstimater" />
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#FF9800</color>
+
+    <color name="backGround_color">#FF9800</color>
+    <color name="bt_text_color">#FFFFFF</color>
+    <color name="text_color">#E0E0E0</color>
+
+    <color name="text_background_color">#1E1E1E</color>
+    <color name="textview_text_color">#FFB400</color>
+
+    <color name="light_cream">#F7E9D7</color>
+    <color name="soft_mint">#00BFA6</color>
+    <color name="pale_peach">#FF6D6D</color>
+    <color name="light_lavender">#9C92AC</color>
+    <color name="sky_blue">#4A90E2</color>
+</resources>
